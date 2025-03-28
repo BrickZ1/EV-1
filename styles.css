@@ -1,0 +1,31 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('exterior-cafe-hormigon-lujo-muebles-terraza-letrero-blanco-vacio-noche-mock-up-3d-rendering_670147-64825.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+#galeria img {
+    transition: transform 0.3s;
+}
+
+#galeria img:hover {
+    transform: scale(1.1);
+}

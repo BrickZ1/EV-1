@@ -9,77 +9,211 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>Evaluacion 1</title>
   </head>
   <body>
-    <header class="continer mt-2">
-      <nav class="navbar navbar-expand-sm bg-light">
-        <div class="container-fluid">
-          <ul class="navbar-nav">
-            <li class="nav-intem">
-              <a href="#" class="nav-link active">Inicio</a>
-            </li>
-            <li class="nav-intem">
-              <a href="#" class="nav-link active">Carta</a>
-            </li>
-            <li class="nav-intem">
-              <a href="#" class="nav-link active">Sobre Nosotros</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <h1 class="text-center mt-3 bg-warning">El Fogon Secreto</h1>
-      <img
-        src="gettyimages-170044930-612x612.jpg"
-        class="mx-auto d-block mt-5"
-      />
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-intem">
+            <a href="#inicio" class="nav-link active">Inicio</a>
+          </li>
+          <li class="nav-intem">
+            <a href="#carta" class="nav-link active">Carta</a>
+          </li>
+          <li class="nav-intem">
+            <a href="#galeria" class="nav-link active">Galeria</a>
+          </li>
+          <li class="nav-intem">
+            <a href="https://github.com/BrickZ1/EV-1" class="nav-link active"
+              >Link Repositorio</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header
+      id="inicio"
+      class="hero-section text-center text-white d-flex align-items-center"
+    >
+      <div class="container">
+        <h1 class="display-4">El Fogon Secreto</h1>
+      </div>
     </header>
 
-    <main class="mt-5 p-5">
-      <h2>Carta</h2>
-      <div class="col-10 row">
-        <div class="card mt-3 col-4">
-          <div class="card-title">
-            <h2 class="text-center">Información</h2>
+    <h2 class="text-center mt-5">Carta</h2>
+    <section id="carta" class="py-5">
+      <div class="container">
+        <h4 class="mb-4">Nuestras Ofertas</h4>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/4b3f7c91b5c1d7b54663cf60535684c0.png"
+                class="card-img-top"
+                alt="Oferta 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bandeja Ranchera</h5>
+                <p class="card-text">pullet pork, baby back ribs, nachos con queso y guacamole
+                </p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$29.990</p>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              exercitationem aspernatur nam quidem veritatis doloremque,
-              asperiores unde quis explicabo modi optio consectetur, tempore
-              ullam cum totam. Odit quis explicabo expedita?
-            </p>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/7294c1c76e6c11584329b61830278ef6.png"
+                class="card-img-top"
+                alt="Oferta 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Carnuda Mushroom</h5>
+                <p class="card-text">Hamburguesa queso, tocino, champiñones, onion ring, mayo
+                </p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$9.990</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card mt-3 col-4">
-          <div class="card-title">
-            <h2 class="text-center">Información</h2>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/bcdaacada80d753fa2ce4fa1d5522f5d.png"
+                class="card-img-top"
+                alt="Oferta 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Baby Back Ribs</h5>
+                <p class="card-text">450 grs. de tiernas costillas de cerdo ahumadas </p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$14.990</p>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              exercitationem aspernatur nam quidem veritatis doloremque,
-              asperiores unde quis explicabo modi optio consectetur, tempore
-              ullam cum totam. Odit quis explicabo expedita?
-            </p>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/e2778dd6485071247bc34fbc44230bb4.png"
+                class="card-img-top"
+                alt="Oferta 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Papas Cheddar Bacon</h5>
+                <p class="card-text">papas fritas, queso americano, tocino</p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$7.990</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card mt-3 col-4">
-          <div class="card-title">
-            <h2 class="text-center">Información</h2>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/f7895d71f9e1ee4111650c7649faef84.png"
+                class="card-img-top"
+                alt="Oferta 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pulled Pork Texas</h5>
+                <p class="card-text">pulled pork, queso americano, pepinillo, coleslaw, salsa oveja negra</p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$11.990</p>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              exercitationem aspernatur nam quidem veritatis doloremque,
-              asperiores unde quis explicabo modi optio consectetur, tempore
-              ullam cum totam. Odit quis explicabo expedita?
-            </p>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/20250306_203650.jpg.160x160_q80_crop.jpg"
+                class="card-img-top"
+                alt="Oferta 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pulpo a la Panzanella
+                </h5>
+                <p class="card-text">Tentaculo de Pulpo, acompañado de una ensalada de pepino</p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$16.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/20250306_211645.jpg.160x160_q80_crop.jpg"
+                class="card-img-top"
+                alt="Oferta 7"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tartar de Res
+                </h5>
+                <p class="card-text">Filete de res crudo cortado finamente, condimentado con alcaparras</p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$10.900</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center">
+              <img
+                src="images/20250307_154452.jpg.160x160_q80_crop.jpg"
+                class="card-img-top"
+                alt="Oferta 8"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fettuccine Bolognesa
+                </h5>
+                <p class="card-text">Tradicional pasta casera de huevo acompañada de salsa bolognesa</p>
+                <p class="fw-bold text-primary" style="font-size: 22px;">$13.900</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
+    </section>
+
+    <section id="galeria" class="py-5 bg-light">
+      <div class="container">
+          <h2 class="text-center mb-4">Galería</h2>
+          <div class="row">
+              <div class="col-md-3 col-sm-6 mb-4">
+                  <img src="images/4b3f7c91b5c1d7b54663cf60535684c0.png" class="img-fluid rounded" alt="Imagen 1">
+              </div>
+              <div class="col-md-3 col-sm-6 mb-4">
+                  <img src="images/7294c1c76e6c11584329b61830278ef6.png" class="img-fluid rounded" alt="Imagen 2">
+              </div>
+              <div class="col-md-3 col-sm-6 mb-4">
+                  <img src="images/bcdaacada80d753fa2ce4fa1d5522f5d.png" class="img-fluid rounded" alt="Imagen 3">
+              </div>
+              <div class="col-md-3 col-sm-6 mb-4">
+                  <img src="images/e2778dd6485071247bc34fbc44230bb4.png" class="img-fluid rounded" alt="Imagen 4">
+              </div>
+          </div>
+      </div>
+  </section>
+    
   </body>
 
-  <footer></footer>
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Contacto</h5>
+                <p>
+                    <i class="bi bi-telephone"></i> +56 9 1234 5678<br>
+                    <i class="bi bi-envelope"></i> contacto@fogonsecreto.cl<br>
+                    <i class="bi bi-geo-alt"></i> Av. Sin Nombre 1234, Los Angeles
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h5>Links de Interés</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Términos y Condiciones</a></li>
+                    <li><a href="#" class="text-white">Política de Privacidad</a></li>
+                    <li><a href="#" class="text-white">Trabaja con Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>&copy; 2024 Fogon Secreto. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
 </html>
